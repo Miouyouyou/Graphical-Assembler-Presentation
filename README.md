@@ -1,5 +1,6 @@
-# Graphical Assembler
-I'll like to call it a "Visual" assembler, but that would generate confusion.
+# Myy Graphical Assembler
+
+> I'll like to call it a "Visual" assembler, but that would generate confusion.
 
 ## Main goals
 
@@ -13,32 +14,22 @@ My main purpose when building this Graphical Assembler is to be able to use it t
 
 In short : A graphical multiplatform assembler and linker.
 
-The program will be first design to generate ARMv7 machine code and build ELF executables for Linux and Android systems, as these are the systems I'll test and use this software on. Once done, others platforms will be added.  
+It will be first designed to generate ARMv7 machine code and build ELF executables for Linux and Android systems, as these are the systems I'll test and it on. Once done, others platforms will be added.  
 The UI will be designed using OpenGL ES 2.x / 3.x renderers. 
 
-The program will be considered completely useable once :
-* it will be rewritten using itself twice. Once with the externally compiled version, once with the manually assembled version.
+This software will be considered completely usable once :
+* it will be rewritten using itself twice. Once with the externally compiled version, once with the manually assembled version;
 * developing the rewritten version through a VCS will be entirely possible. This mean easily accepting and including the patches provided through Git.
 
-The program will be considered feature complete when all the planned features will be implemented.
+It will be considered feature complete when all the planned features will be implemented.
+
+Myy Graphical Assembler will remain free software during the whole development process, and even after. The licenses are :
+* MIT License for the code,
+* CC0 for the artistic assets.
 
 ## First PoC
 
 This week
-
-## Non-contractual sketches
-
-### Nodes
-![Example nodes](FirstPresentation/Sketches/Nodes.png)
-
-### Procedures
-![Example procedure](FirstPresentation/Sketches/Example-procedure-no-wires.png)
-![Other procedure potential presentation](FirstPresentation/Sketches/node.png)
-![Linear procedure example](FirstPresentation/Sketches/Linearcode.png)
-
-### Sections editors
-![Binary sections editor](FirstPresentation/Sketches/Sections.png)
-![Example Data Editor](FirstPresentation/Sketches/ExampleDataEditor.png)
 
 ## Planned features
 
@@ -145,7 +136,7 @@ With the ability to tag nodes with determined filepath for export.
 
 * Provide this entire program rewritten in assembly, using this same program, when possible.
 
-### Last functionnalities
+### Last functionalities
 
 * Add, share and edit libraries online, through open and documented protocols that anyone can implement.  
   No shady undocumented opaque 'cloud' sharing thingy.  
@@ -161,7 +152,7 @@ With the ability to tag nodes with determined filepath for export.
 
 ### Extensibility
 
-* A plugin system will be put in place when deemed possible, once the program will be useable.
+* A plugin system will be put in place when deemed possible, once the program will be usable.
 
 ### Assembly languages aimed to be supported, in priority order
 
@@ -176,3 +167,23 @@ With the ability to tag nodes with determined filepath for export.
 
 * Code : MIT License
 * Graphical assets : CC0
+
+## Non-contractual sketches
+
+### Nodes
+![Example nodes](https://raw.githubusercontent.com/Miouyouyou/Graphical-Assembler-Presentation/master/FirstPresentation/Sketches/Nodes.png)
+
+### Procedures
+![Example procedure](https://raw.githubusercontent.com/Miouyouyou/Graphical-Assembler-Presentation/master/FirstPresentation/Sketches/Example-procedure-no-wires.png)
+![Other procedure potential presentation](https://raw.githubusercontent.com/Miouyouyou/Graphical-Assembler-Presentation/master/FirstPresentation/Sketches/node.png)
+![Linear procedure example](https://raw.githubusercontent.com/Miouyouyou/Graphical-Assembler-Presentation/master/FirstPresentation/Sketches/Linearcode.png)
+
+### Sections editors
+![Binary sections editor](https://raw.githubusercontent.com/Miouyouyou/Graphical-Assembler-Presentation/master/FirstPresentation/Sketches/Sections.png)
+![Example Data Editor](https://raw.githubusercontent.com/Miouyouyou/Graphical-Assembler-Presentation/master/FirstPresentation/Sketches/ExampleDataEditor.png)
+
+## Main purpose of the fundraising
+
+The targeted donators audience are people interested by using such softwares and willing to see it developed faster.
+
+While I intend to develop this software in any case, the more funds I'll be able to gather, the more time I'll be able to dedicate entirely to this project.
